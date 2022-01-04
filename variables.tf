@@ -168,7 +168,7 @@ variable "random_suffix" {
 variable "tf_service_account_id" {
   description = "ID of service account for terraform in seed project"
   type        = string
-  default     = "org-terraform"
+  default     = "test-org-terraform"
 }
 
 variable "tf_service_account_name" {
